@@ -1,0 +1,255 @@
+@import url("dropdowns.css");
+
+body {
+    background-color: #EFEDE4;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+  }
+
+/* UW Bothell logo */
+.uwb-logo {
+    background-color: #4b2e83;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-bar  {
+    text-align: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+header h1 {
+  margin: 40px;
+  font-family: 'EncodeSans-bold', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header h2 {     /* date */
+  margin: -30px 0 40px 0;
+  font-family: 'EncodeSans-regular', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+header hr {
+  background-color: #000;
+  border-width: 0;
+  height: 1.3px;
+  width: 20%;
+}
+
+/* ------------------------------ Home Page styles ----------------------------- */
+.styled-heading {
+  font-family: EncodeSans-black;
+  margin: 80px 10% 0 10%;
+  font-size: 15px;
+}
+
+.styled-heading figure {
+  background-image: url(https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/10/07214122/Bar_RtAngle_7502.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 400px;
+  margin-left: -3px;
+}
+
+.programs {
+  /* background-color:hsl(0, 0%, 85%); */
+  background-color: hsl(60, 100%, 98%);
+  color: red;
+  padding: 80px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 10% 60px 10%;
+  box-shadow: 3px 3px 3px 3px gray;
+  font-family: EncodeSans-bold;
+  font-size: 15px;
+}
+
+.programs figure {
+  color: black;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  /* top: 20px; */
+}
+
+.programs figure img {
+  width: 200px;
+  margin: auto;
+  margin-top: -40px;
+}
+
+
+.programs figure:hover {
+  opacity: 90%;
+}
+
+.programs figcaption {
+  color: white;
+  width: 180px;
+  margin: auto;
+  /* margin-top: -50px; */
+}
+
+.long-caption {
+  padding-top: 9px;
+}
+
+.long-caption figcaption {
+  margin-top: -57px;
+  font-family: EncodeSans-bold;
+  font-size: 14px;
+}
+
+.short-caption figcaption {
+  margin-top: -50px;
+}
+
+.text {
+  margin: 0px 10% 0 10%;
+  font-family: OpenSans;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.welcome-text {
+  margin: 40px 10% 0 10%;
+  font-family: EncodeSans-light;
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.sponsors figure img {
+  size: 120px;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+} 
+
+/* .text p {  
+  font-family: OpenSans;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+} */
+
+/* -------------------------- Dropdown from green icons ----------------------------- */
+.icon-dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 5px 5px 0 5px;
+  /* padding-top: 5px; */
+}
+
+.icon-dropdown-item {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  /* bottom: -130px; */
+  font-family: 'EncodeSans-medium';
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  text-transform: none;
+}
+
+.icon-dropdown-item a {
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  color: black;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.icon-dropdown-item a:hover {
+  background-color: #ddd;
+}
+
+.move-item-down {
+  margin-top: 30px;
+}
+
+/* Show the dropdown menu on hover */
+.icon-dropdown:hover .icon-dropdown-item {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .icon-dropdown:hover .icon-dropbtn {background-color: #3e8e41;} */
+
+/* -------------------------- Fonts ----------------------------- */
+@font-face {
+  font-family: 'EncodeSans-black';
+  src: url('../fonts/EncodeSans/EncodeSansNormal-900-Black.ttf');
+}
+
+@font-face {
+  font-family: 'EncodeSans-bold';
+  src: url('../fonts/EncodeSans/EncodeSansNormal-700-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'EncodeSans-medium';
+  src: url('../fonts/EncodeSans/EncodeSansNormal-500-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'EncodeSans-regular';
+  src: url('../fonts/EncodeSans/EncodeSansNormal-400-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'EncodeSans-light';
+  src: url('../fonts/EncodeSans/EncodeSansNormal-200-ExtraLight.ttf')
+}
+
+@font-face {
+  font-family: 'UniSans';
+  src: url('../fonts/UniSans/Fontfabric - UniSansBook.otf');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans/Open Sans regular.ttf');
+}
+
+@font-face {
+    font-family: 'Encode Sans Compressed';
+    src: url('../assets/fonts/encodesanscompressed-600-semibold-webfont.eot');
+    src: url('../assets/fonts/encodesanscompressed-600-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/encodesanscompressed-600-semibold-webfont.woff') format('woff'), url('../assets/fonts/encodesanscompressed-600-semibold-webfont.ttf') format('truetype'), url('../assets/fonts/encodesanscompressed-600-semibold-webfont.svg#encodesanscompressed-600-semibold-webfont') format('svg');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Encode Sans Compressed';
+    src: url('../assets/fonts/encodesanscompressed-800-extrabold-webfont.eot');
+    src: url('../assets/fonts/encodesanscompressed-800-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/encodesanscompressed-800-extrabold-webfont.woff') format('woff'), url('../assets/fonts/encodesanscompressed-800-extrabold-webfont.ttf') format('truetype'), url('../assets/fonts/encodesanscompressed-800-extrabold-webfont.svg#encodesanscompressed-800-extrabold-webfont') format('svg');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Flat-UI-Icons";
+    src: url('assets/icons/flat-ui-icons-regular.eot');
+    src: url('assets/icons/flat-ui-icons-regular.eot?#iefix') format('embedded-opentype'), url('assets/icons/flat-ui-icons-regular.woff') format('woff'), url('assets/icons/flat-ui-icons-regular.ttf') format('truetype'), url('assets/icons/flat-ui-icons-regular.svg#flat-ui-icons-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
