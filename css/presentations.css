@@ -1,0 +1,192 @@
+@import url("./css/homepage.css");
+
+h2 {
+    margin: 40px;
+    font-family: 'EncodeSans-bold';
+    text-align: center;
+}
+
+.date {
+    font-family: 'EncodeSans-light';
+    font-size: 20px;
+    margin: -30px 0 60px 0;
+    text-align: center;
+}
+
+.text {
+    font-family: OpenSans;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 10% 80px 10%;
+    text-align: center;
+}
+
+.text a:hover {
+    color: #b7a57a;
+    text-decoration: underline;
+}
+
+hr.purple-line {
+    background-color: #4b2e83;
+    border-width: 0;
+    color: #4b2e83;
+    height: 2px;
+    margin: auto;
+    width: 65%;
+}
+
+@media only screen and (max-width: 1600px) {    /* medium-sized desktop */
+    hr.purple-line {
+        width: 80%;
+    }
+}
+
+/* hr:nth-child(2) {
+    background-color: #000;
+    margin-left: 0;
+    width: 20%;
+} */
+
+hr.short-black-line {
+    background-color: #000;
+    margin-left: 0;
+    width: 20%;
+} 
+
+.presentation {
+    font-family: 'EncodeSans-regular';
+    margin: 60px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+
+
+.presentation h3 {      /* project title */
+    font-family: 'EncodeSans-bold';
+    margin-bottom: 0px;
+}
+
+.presentation h4 {      /* student name */
+    /* margin: 15px 0 15px 0; */
+    font-family: 'EncodeSans-medium';
+    width: 240px;
+}
+
+.students {
+    margin: -10px 0 -10px 0;
+    display: flex;
+    line-height: 30px;
+    width: 450px;
+}
+
+.students-extend {
+    margin: -10px 0 -10px 0;
+    display: flex;
+    line-height: 30px;
+    width: 550px;
+}
+
+.majors {               /* student's majors, minors */
+    font-size: 18px;
+    font-family: 'EncodeSans-light';
+    margin-top: 28px;
+}
+
+
+.presentation p {       /* faculty advisors */
+    margin-top: -10px;
+    font-size: 17px;
+}
+
+
+.present-time {         /* presentation time */
+    font-size: 15px;
+}
+
+.presentation ul {
+    display: flex;
+    margin: auto;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 1000px;
+    align-items: center;
+}
+
+.presentation li {
+    justify-content: center;
+    width: 450px;
+    /* background-color: pink; */
+}
+
+.presentation img {     /* poster image */
+    /* height: 270px; */
+    min-height: 270px;
+    min-width: 450px;
+    max-width: 450px;
+    /* opacity: 0.4; */
+}
+
+.inbetween-presentations {
+    padding: 90px 0 90px 0;
+    font-size: 23px;
+    font-family: 'OpenSans';
+    text-align: center;
+}
+
+.introduction {
+    padding: 20px 0 40px 0;
+    text-align: center;
+}
+
+.introduction h1 {
+    font-size: 30px;
+    font-family: 'EncodeSans-medium';
+}
+
+.introduction h2 {
+    margin: -5px 0 -5px 0;
+    font-size: 25px;
+    font-family: 'EncodeSans-regular';
+}
+
+.introduction h3 {
+    font-size: 20px;
+    font-family: 'EncodeSans-light';
+}
+
+.introduction h4 {
+    font-size: 22px;
+    font-family: 'EncodeSans-light';
+    margin-bottom: -10px;
+}
+
+.panel-discussion {              /* for Applied Computing panel discussions */
+    padding: 40px 0 50px 0;
+    text-align: center;
+}
+
+.panel-discussion h3 {          /* time */
+    font-size: 16px;
+    font-family: 'EncodeSans-regular';
+}
+
+.panel-discussion h2 {          /* panel discussion text */
+    font-size: 20px;
+    font-family: 'EncodeSans-medium';
+    margin: 20px 0 -10px 0;
+}
+
+.panel-discussion h1 {          /* discussion topic */
+    font-size: 26px;
+    font-family: 'EncodeSans-medium';
+    /* margin: -5px 0 10px 0; */
+}
+
+footer {
+    height: 100px;
+}
+
+.space {
+    height: 5px;
+}
+
