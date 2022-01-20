@@ -1,0 +1,114 @@
+{
+    "csse": [
+        {
+            "time": "12:30 PM - 12:45 PM",
+            "projectId": "room-4-1230",
+            "title": "Automated Vulnerability Prediction in Software Systems",
+            "studentName": "Alexander Christensen",
+            "studentMajor": "CSSE / Business Minor",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Hazel Asuncion",
+            "posterLink": "posters/csse/christensenalexanderscott.png",
+            "abstract":"Cyber security crimes have been on the rise causing companies to think of ways to mitigate security vulnerabilities. This has created a huge cost in terms of time and money for software development companies in post-production support required for fixing security vulnerabilities in their products. These issues could be solved by creating an automated system to identify security vulnerabilities during and after software development. While there are many sources code analysis-based techniques and static analysis techniques for automatically detecting vulnerabilities, these methods have limitations. They require programming language specific pre-training and are restricted to specific domains of software systems. Thus, we decided to explore if a machine learning algorithm that uses specification documents as input to overcome these limitations without compromising on accuracy. As part of this research, we created a natural language processing-based model that predicts security vulnerabilities in software systems using keywords and n-grams extracted from software documentation. We analyzed the correlation of certain keywords and n-grams with the occurrence of various security vulnerabilities as well as the correlation between different vulnerabilities. To enable the analysis, we created a dataset by mapping over 200,000 vulnerability reports on the CVE website with technical/functional documentation of 3602 products. The preliminary analysis shows that the performance of the documentation-based predictor is comparable or better than the prediction using source code as well as other static analysis methods."
+        },
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "room-4-1245",
+            "title": "Identification of Design Patterns in Source Code",
+            "studentName": "Aidar Kurmanbek-Uulu",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Hazel Asuncion",
+            "posterLink": "posters/csse/uuluaidarkurmanbek.jpg",
+            "abstract":"Design patterns are used to solve recurring software engineering problems. Secure design patterns are design patterns that provide reusable components to address vulnerabilities commonly found in software systems. Identifying what design patterns were used and common security vulnerabilities associated with them is a great way to maintain the software and to educate software engineers on which existing security mechanisms have been designed into the existing code base. While there are many tools available to do so, most of them require manual labeling of training datasets, or manually specifying the rules for each pattern. Our research project focuses on creating a lightweight system that is capable of automatically identifying security vulnerabilities in software systems and detecting the presence of secure design patterns in a source code by parsing through XMI files representing UML class diagrams and generating SPARQL queries to identify the design patterns using CodeOntology."
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "room-4-100",
+            "title": "Investing Dashboard Web Application",
+            "studentName": "Stephen Homan",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Afra Mashhadi",
+            "posterLink": "posters/csse/homansteve.jpg",
+            "abstract":"The goal of this project was to develop an investing dashboard that enables users to quickly analyze a company’s financial statements through the use of organized data, easy-to-interpret graphics, and machine learning. While most of the work aims to make time series trends easier to identify, statistical analysis and machine learning are used to identify if a company is fairly valued based on past performance and market valuations. My approach was to break down the analysis into the core quantitative factors: financial health, performance, value, yield, and technical analysis; and use those as pillars for organizing the application. Each category was then populated with the appropriate graphics to illustrate particular insights from the financial statements and market data. The end result is a visual summary page of key performance indicators and time series charts that allow the user to gain rapid insight and develop a preliminary investment thesis for a company. Five categories are displayed on the summary page to give the end user a holistic view of the investment potential for a given company of interest. The health and performance features inform the user if the company is solvent and profitable, value and yield help identify risk and reward margins, and technical indicators are used to determine if it is a good time to invest based on market momentum. The focus of this project is the first four categories, which aim to simplify the process of fundamental analysis—a method of evaluating the intrinsic value of an asset and analyzing the factors that could influence its price in the future."
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "room-4-115",
+            "title": "Deep Embedded Clustering of Marine Mammal Vocalization",
+            "studentName": "Ali Jahangirnezhad",
+            "studentMajor": "CSSE / Statistics Minor",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Afra Mashhadi",
+            "posterLink": "posters/csse/jahangirnezhadali.jpg",
+            "abstract":"With the decrease of hardware costs, stationary hydrophones are increasingly deployed in the marine environment to record animal vocalizations amidst ocean noise over an extended period of time. Bioacoustic data collected in this way is an important and practical source to study vocally active marine species and can make an important contribution to ecosystem monitoring. However, a main challenge of this data is the lack of annotation which many supervised neural network models rely on to learn to distinguish between noise and marine animal vocalizations. In this paper, we posit an unsupervised deep embedded clustering based on LSTM autoencoders, that aims to learn the representation of the input audio by minimizing the reconstruction loss and to simultaneously  minimize a clustering loss through  Kullback–Leibler divergence."
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "room-4-130",
+            "title": "Interpretable Neural Networks for Research Scientists",
+            "studentName": "Kun Ma",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Afra Mashhadi",
+            "posterLink": "posters/csse/makun.png",
+            "abstract":"The role of this Neural Network tool for researchers is to give non-cs scholars such as physicists, engineers, scientists a tool web client to test their Machine Learning model by giving them an intuitive easy-to-learn tool to drag and drop the necessary neural network components they would need. From a small survey we did, most researchers know how to program in Python and R. They tend to use other open-source tools made by other researchers and must go in and edit the tool to work for their use case. This tool is used for image classification where we use convolutional neural networks (CNN). CNNs are image processing and artificial intelligence systems that use deep learning to accomplish both generative and descriptive tasks. They frequently use machine vision, such as image and video recognition, as well as recommender systems and natural language processing. This was achieved by using the MobileNetV2 model, a convolutional neural network architecture that aims to perform well on mobile devices. It is based on an inverted residual structure where the residual connections are between the bottleneck layers. This model is small, low latent, and low power meant to meet the resource constraints of our use case. This specific version of MobileNet improves the performance of doing multiple tasks and benchmarks well across a spectrum of different model sizes. The web client uses Playground TensorFlow & Teachable Machine as the frontend and TensorFlow as the backend with MobileNetV2 as the model. Users can log into the web client and upload images for each class. The web client stores everything locally within the browser and no servers are needed for privacy reasons. Users are also able to modify the Epoch, Learning Rate, Dense Units, and Batch Size to better tweak and understand what each does to the results. Further implementation of this tool is to provide more features and models users can choose from besides MobileNetV2."
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "room-4-145",
+            "title": "Designing a Federated Learning Dashboard",
+            "studentName": "Matthew Taing",
+            "studentMajor": "CSSE / Infomatics Minor",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Afra Mashhadi",
+            "posterLink": "posters/csse/taingmatthewc.jpg",
+            "abstract":"Federated learning is a machine learning technique that trains machine learning models using many decentralized workers as opposed to aggregating the data for modeling on a single server. For my capstone project, I developed a dashboard that can be used to deploy and monitor simulated Flower federated learning models.\n\nInvestigating federated learning can help us gauge the effectiveness of such techniques in the real world. The primary benefit of federated learning is that it allows us to gain insights through data science without infringing upon the privacy of users. Unlike current implementations of machine learning in the real world, federated learning could provide an option for people to gain similar benefits without giving up their personal information.\n\nThis dashboard allows researchers to deploy simulated federated learning models under varying parameters such as type of model, federated learning strategy, and the number of classes. Furthermore, once the model has been deployed the output in the form of logs and Tensorboard graphs can be viewed. It is important to note that the dashboard performs simulated federated learning, and does not use real-world devices.\n\nTo create this dashboard I used Flask, which is a framework that allows the User Interface to directly interact with Python code while still using web development tools such as HTML, CSS, and JavaScript. Designing the dashboard in such a way has made it possible to directly pass input to Python code and also access the output. A benefit of this is that it’s a rather smooth process adding additional parameters or using the dashboard with other python code.\n\nThe primary utility of developing such a dashboard is that it allows researchers to test federated learning more efficiently under various conditions. Additionally, thanks to the flexibility of this dashboard, it could be extended beyond simulated federated learning by acting as a bridge between the models developed by researchers and real-world mobile devices. Testing federated learning models on real devices will be important for the future to verify the feasibility of such techniques when put into practice."
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "room-4-200",
+            "title": "A Casual Tennis App",
+            "studentName": "Kieran Coito",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Robert Dimpsey",
+            "posterLink": "posters/csse/coitokieran.jpg",
+            "abstract":"My capstone took place in two parts, the first part being a T-Mobile Tech-X internship, and the second part being an individual project called, A Casual Tennis App.\n\nFor my internship at T-Mobile, I worked on the Data Storage and Architecture team. I worked on live databases, creating views and tables, gathering requirements, and helping with data testing. I predominantly worked using SQL and Microsoft Server Management Studio, and often worked within Agile development methods.\n\nHowever, I never worked on one concise project during my time with T-Mobile, so I took on a separate individual project to tie together what I learned and worked on.\n\nThe second part of my capstone, and the focus of my presentation, is an individual project called A Casual Tennis App. This app looks to solve the problem of finding people to play tennis with on public tennis courts in Seattle. For many people in the Seattle area this has been a challenge, as most organized tennis is facilitated through private clubs or other facilities that cost money. This app aims to make finding people not only easy and accessible, but also free. This will be done by having people join the app and specify their location, at which point other players at the same location can find and contact them to play tennis. I built the app using the Django framework, it was then hosted on Azure, with a Database built in SQLite.   "
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "room-4-215",
+            "title": "UniMap",
+            "studentName": "Ahmed Elwalid",
+            "studentMajor": "CSSE / Business Minor",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Robert Dimpsey",
+            "posterLink": "posters/csse/elwalidahmedthoelkefel.jpg",
+            "abstract":"Abstract coming soon."
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "room-4-230",
+            "title": "Quick Response Code Exposure Notification System",
+            "studentName": "Jarod Guerrero",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Robert Dimpsey",
+            "posterLink": "posters/csse/guerrerojarodtimothy.jpg",
+            "abstract":"As of June 2021, the global COVID-19 pandemic has infected more than 170 million people. The SARS-CoV-2 virus’s properties and incubation period allow it to spread effortlessly through respiratory droplets. This makes it difficult to trace and measure the magnitude of infections before it causes harm. However, even without the use of effective vaccines, some countries in Southeast Asia have had great success in reducing COVID-19 infection rates. One contributing factor is the use of contact tracing and exposure notification technology. At the start of 2021, only 9 out of the 50 states in America had implemented an exposure notification application using the Google-Apple Exposure Notification (GAEN) system. Additionally, publicly available COVID-19 infection data is only precise up to the county level. Applications implemented with the GAEN system utilize a Bluetooth signal from the user’s phone to aggregate infection data to the state-county level. QR codes, however, allow for another data collection method with the benefit of being place-centric, unique, scannable on an opt-in basis, and geographically locatable, all allowing for privacy-respecting and publicly available infection statistics with place and building-level precision. The result of this Computer Science and Software Engineering individual capstone project was designing and implementing a complete exposure notification system using the power of QR codes."
+        },
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "room-4-245",
+            "title": "Building an Adapter from a Customer Backend",
+            "studentName": "Kaity Colbert",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Stealth Startup",
+            "facultyAdvisor": "Dr. Erika Parsons",
+            "posterLink": "posters/csse/colbertkaity.jpg",
+            "abstract":"The startup company I interned with has an end goal of creating a Backend as a Service and in order to test this backend service, we built a Customer Relationship Manager (CRM) web application. After realizing we had no real incentive for customers to try out our CRM over the many pre-existing ones, we pivoted the CRM to an e-commerce management service made up of an admin side (our original CRM) and a customer-facing storefront using an open source headless frontend called Vue Storefront.\n\nMy main task was to build an adapter between our custom backend and Vue Storefront. This required me to analyze and understand the HTTP calls Vue Storefront was making so that I could return the information from our backend to Vue Storefront in the response format it’s expecting. During this process, I used my knowledge of data structures like trees, array, and maps, and applied them in a new language I hadn’t used before, PHP. I also had to make changes to Vue Storefront to make it behave the way we wanted, such as adding HTTP calls in certain places that were previously hard-coded. While working with the adapter we discovered features that were missing from our backend such as product groups/variants that we had to implement as well. Additionally, I was designated as the SCRUM master for our team and led our daily standups.\n\nAt the end of my internship, we now have our e-commerce system deployed to production. Any customer can enter their products into the admin side website, which we call Wiigo, and have those products appear in their Vue Storefront instance where their customers can buy their merchandise. When a customer makes an order from their Vue Storefront instance, the seller will receive an email, and the sales order will appear in Wiigo for them to see. Wiigo also allows our customers to track their expenses and keep track of their contacts and customers."
+        }
+    ]
+}

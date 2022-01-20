@@ -1,0 +1,125 @@
+{
+    "csse": [
+        {
+            "time": "12:30 PM - 12:45 PM",
+            "projectId": "room-6-1230",
+            "title": "VIA-QMI: Visualized data analytic tool for Quantitative Multiplex Coimmunoprecipitation",
+            "studentName": "Carl Howing",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Wooyoung Kim",
+            "posterLink": "posters/csse/howingcarljohn.jpg",
+            "abstract":"This capstone project is an addition to a previous project called Visual Data Analytic Tools for Quantitative Multiplex Co-Immunoprecipitation (VIA-QMI). The basis of the project is to enable researchers to analyze the data from experiments. These experiments are designed to assist in diagnosing and designing an engineering T-cells to kill cancerous cells. Researchers look at analytes that are made up of proteins and test the interactions with other proteins. Previously the researchers used different applications developed in different languages or frameworks. Prior to VIA-QMI development, a mediator was required to generate the required results from the experiment data. Only then the researchers would be able to analyze the data. The current VIA-QMI application is designed to remove the need for different applications. The state of the VIA-QMI application prior to starting the project, the application needed more data visualization tools. Therefore, my focus on the project was to provide more data visualization tools. There were three main features that were required to be added. The first was giving the ability for the researchers to export the data. The second was to provide a heatmap of the median values. The last was to provide a distribution plot of the data. This would allow the researchers to visually see data and compare it against other experiment samples. These new features allow the researchers to analyze the data right away without the need for other applications."
+        },
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "room-6-1245",
+            "title": "Web Application for Genome Sequencing Analysis",
+            "studentName": "Victor De Avelar",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Wooyoung Kim",
+            "posterLink": "posters/csse/victoravelar.jpg",
+            "abstract":"In this project, we collaborate with the division of Biology at University of Washington Bothell to build a web application for data processing and visualization. The biology department collects genomes of two organisms over many generations to analyze the co-evolutionary process. This scientific research generates a plethora of data, which muct be processed and presented graphically in a way that is meaningful to the researchers. These data processing tasks are currently done with python scripts and can be tedious. Previous students have built some functionality, but a centralized web application using LEMP stack that conducts sequencing analysis, storing data in MySQL databases, and displaying the data as requested with filtering and sorting functionality. In addition, the web application provides a program to analyze the frequency changes of all mutations during evolution. A local server on a virtual machine was utillized for development and testing of the web application. There were some technical challenges deploying to production, namely because the local environment ran Ubuntu while the production is running CenturyOS7. With collaboration with the UW IT department, the final web application is configured to be hosted on a CenturyOS7 Linux machine."
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "room-6-100",
+            "title": "Trip Troupe: Restructuring and Redeployment",
+            "studentName": "Sukeerth Vegaraju",
+            "studentMajor": "CSSE / Applied Math Minor",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Wooyoung Kim",
+            "posterLink": "posters/csse/vegarajusukeerth.png",
+            "abstract":"This project explored facilitating deeper interactions in online streaming communities among small to mid-size streamers and explored various different architectures to build an extensible application to target as many platforms as possible with redeployment. Especially with the recent pandemic forcing wider interactions online, it was important to explore making these relationships developed purely virtually to hold more meaning and depth. Players of the game are given many chances to interact through socially-charged events and cooperation, allowing people to get a better sense of each other’s personality than a simple text-chat interface that is the chat on streaming platform would allow. The game, Trip Troupe, was refactored to utilize a backend service that allows for changes to be made without needing to redeploy the game every time, and will allow us to query the same backend from different streaming platforms. There was a marked improvement in performance following refactoring the game. Most notably in the frontend UX, we noticed a decrease of 80% in the number of residual errors, due mainly to applying a proper, React-based architecture to fix data-flow bugs in the state. In addition, the reliability of our system increased from 0.851 to 0.953, drawn from data gathered per 100 errors over the course of testing. While the product has not yet launched on Twitch, the data from the launch on Mixer to show a clear increase in streamer’s retention rate when streaming Trip Troupe. Streamers would see up to 50 new viewers per stream if new to streaming and starting with this game. Established streamers saw larger viewer rates as well, though the data is harder to discern in these cases. Ultimately, the project was successful in facilitating a deeper bond between small to mid-size streaming communities, and also in improving the architecture and implementation of the game."
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "room-6-115",
+            "title": "Intership at People Power Company: Smart Door Lock Voice Interface",
+            "studentName": "Eunmin Lee",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - People Power",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "posters/csse/leeeunmin.png",
+            "abstract":"In Summer 2020, I did my internship at People Power Company, a start-up IoT company specializing in smart home solutions. My task during the internship was to enhance their application by implementing voice command support for their smart door lock system.\n\nIn order to do that, the company IoT API needed to communicate with Alexa and Google Assistant interface through a middleware. My code lives on that middleware, which is deployed on AWS Lambda with the Node.js environment. The message received from Alexa/Google Assistant was then converted to a format that the company IoT API can understand and vice versa by my code. The message includes authentication information, lock/unlock directive, lock status report and error report.\n\nIn the beginning, I had to spend a fair amount of time just reading and understanding documentation from Alexa, Google Assistant and the company IoT API to get a good understanding of the system architecture, and authentication systems of each. My responsibilities while developing the feature beside coding was participating in the scrum meeting, and performing software testing.\n\nBy the end of the internship, I was able to release a demo for lock and unlock their smart door lock with additional support for a low battery alert. I also provided suggestions to improve the IoT API for the users’ physical security."
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "room-6-130",
+            "title": "The Security and Privacy Protection of Messaging Apps",
+            "studentName": "Marci Ma",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "posters/csse/mamarcichokiu.png",
+            "abstract":"In this generation, people tend to use instant messenger to replace SMS, and there are a couple of them that people all over the world use, which included WhatsApp, Telegram, and Signal. They are all provided End-to-End Encryption (E2EE) messaging solutions, as it is a method to prevent any third parties or the service owner to see the message contents, so it is important to analyze how the encryption protocol works to keep the data protected.\n\nThe paper will be research-based to list out the background of those communication platforms and then introduce the concept of their encryption protocol. Additionally, the data collection and the privacy policy will also be included to determine the security level. The research shows that these three messaging apps use two different encryption protocols, which WhatsApp and Signal share the same protocol, and Telegram has its protocol. It is also surprised to notice that Telegram did not set the E2EE as default, the user needs to manually enable the “secret chat”, which makes the E2EE optional on the Telegram.\n\nThe analysis will also show the relation between security and the privacy policy. The recent change of WhatsApp privacy policy that allows Facebook, as the parent company, to share user information is worrying a lot of the old users. The relationship between the security level and the privacy policy will be further discussed in the paper, as the comparison will also take place to show the differences on each communication platform.\n\nBy comparing and analyzing the data collection and the encryption protocol, this project lists the pros and cons of using these messengers, in order to tell the audience about how their data being handled on the server. It is also important to raise public awareness if the apps have any vulnerabilities to leak their confidential chat history, this project will also remind the public how to protect their information while using these messenger apps."
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "room-6-145",
+            "title": "Working at the UW APL: OOI-RCA",
+            "studentName": "Kyle O'Dore",
+            "studentMajor": "CSSE",
+            "projectType": "Current Employer - UW APL",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "posters/csse/odorekyletomlin.jpg",
+            "abstract":"During my time working with the Ocean Observatory Initiative’s Regional Cabled Array (OOI:RCA) team at the University of Washington Applied Physics Lab (APL), I helped develop Nereus, a full-stack web app, and an image compilation and viewer tool called D-Still (short for digital stills) as part of my capstone project. These two projects provided the researchers and engineers operating the RCA with enhanced situational awareness over real time data systems deployed in the ocean off the coast of Oregon.\n\nD-Still is a combination of a backend script that automatically compiles still images captured by the RCA’s six subsea cameras into time-lapse movies and a website that displays current and archived footage. A bash script takes still images from the prior day and processes them into videos and GIFs for use on the website. The website, built using HTML/CSS/JS with JQuery, provides the ability to quickly view all of the previous day’s movies, movies from a specific camera, or an archived video from a prior day. D-Still allows the RCA team to visually confirm the status of the cameras and monitor the environment around the cameras. This means the condition of the water, sea floor, and movements of sea life are easily available to the researchers on a daily basis, and historical conditions are discoverable through the archive feature. D-Still also affords RCA administrators the ability to quickly see what cameras are producing stills to determine a camera’s operational status.\n\nThe Node Enhanced Reporting and Extended Uptime System (NEREUS) is a new instrument status monitoring, reporting, and tracking tool for the RCA currently in development at APL that I am working on. This full-stack web app utilizes FastAPI (python, MySQL) for a backend and Vue3+Quasar2 (HTML, CSS, Typescript) for the frontend. Nereus monitors data and file availability as well as network connectivity for the approximately 150 sea-floor instruments connected to the RCA. This tool will be used primarily by the RCA operators to detect, monitor, and diagnose instruments with issues on the RCA to make sure that there is as little downtime as possible. This will ensure that the researchers have a constant stream of rea-time data to analyze."
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "room-6-200",
+            "title": "My Health Vault",
+            "studentName": "Rafae Pasha",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "posters/csse/pasharafae.png",
+            "abstract":"Healthcare data in the US is very siloed and fragmented. Patients interact with many types of healthcare service providers, clinics, pharmacies, hospitals, labs and imaging centers, over the course of their lifetime. They have fragments of information sprinkled all over the system. The burden of accessibility, accuracy, and timely relevance of this data falls on the patient. With no patient centric healthcare information management system, this leads to risks of medical errors and dire consequences.\n\nMy Health Vault (MHV) is designed to be a single source of organizing patient healthcare data using simple and familiar modern constructs like networking and document sharing. MHV members create connections to providers and information can be exchanged using global standards such as Clinical Document Architecture (CDA) specifications and MHV is able to intelligently coalesce this data into a single health vault. Development and management of patients' personal healthcare networks is at the core of MHV's solution.\n\nMHV offers the ability to store documents, manage relevance and accuracy of the document store and continuously monitor the provider network life cycle and drive the patient towards actively managing their health care information vault.\n\nThis proof of concept is a first step towards evolving the truly AI driven information coalescence and multi contributor sourced data graphs. I hope to help reduce the number of medical errors while providing a patient with My HealthVault."
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "room-6-215",
+            "title": "Chilpass: Password Manager using Database Systems",
+            "studentName": "Jonathan Cho",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project Student Defined",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "posters/csse/chojonathan.jpg",
+            "abstract":"Password security is often overlooked when users create passwords for reasons such as simplicity and convenience. The weak passwords created for these reasons often possess the potential of causing severe damages to an individual as attackers gain access to bank and SSN information, which ultimately could lead to identity theft. Thus, the main purpose of this capstone project was to build an application that mimics a secure password manager with the required functionalities (creating the password file, opening password file, and generating random passwords) to recognize the level of security that is required in protecting user’s information.\n\nIn completing this project, we became comfortable in building an application from scratch, incorporating Application Programming Interfaces (APIs) and libraries, learning how to secure user’s information with Key Derivation Functions (KDFs) and keys, and understanding how to communicate with database files using SQL commands. Within the 10~11 weeks given to us this spring quarter, we were able to complete the proposed task written on our capstone contract, which was to build a functioning password manager. Prior to this project, we had a basic understanding of what a password manager does from our CSS 310 course; however, with this project we became fairly comfortable with the ins and outs of a password manager (hashing and encryption, key derivation, and security techniques). We utilized our past courses for our design documents and our application design to successfully complete our capstone. Most importantly, in creating ChilPass we learned about developing real-world applications/software from scratch using agile development, learned about successfully implementing security technologies, and delivered an effective application that has the base functionalities of an industry password manager."
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "room-6-230",
+            "title": "Chilpass: Password Manager using Database Systems",
+            "studentName": "Hans Wilter",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project Student Defined",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "posters/csse/wilterhansalger.jpg",
+            "abstract":"Password security is often overlooked when users create passwords for reasons such as simplicity and convenience. The weak passwords created for these reasons often possess the potential of causing severe damages to an individual as attackers gain access to bank and SSN information, which ultimately could lead to identity theft. Thus, the main purpose of this capstone project was to build an application that mimics a secure password manager with the required functionalities (creating the password file, opening password file, and generating random passwords) to recognize the level of security that is required in protecting user’s information.\n\nIn completing this project, we became comfortable in building an application from scratch, incorporating Application Programming Interfaces (APIs) and libraries, learning how to secure user’s information with Key Derivation Functions (KDFs) and keys, and understanding how to communicate with database files using SQL commands. Within the 10~11 weeks given to us this spring quarter, we were able to complete the proposed task written on our capstone contract, which was to build a functioning password manager. Prior to this project, we had a basic understanding of what a password manager does from our CSS 310 course; however, with this project we became fairly comfortable with the ins and outs of a password manager (hashing and encryption, key derivation, and security techniques). We utilized our past courses for our design documents and our application design to successfully complete our capstone. Most importantly, in creating ChilPass we learned about developing real-world applications/software from scratch using agile development, learned about successfully implementing security technologies, and delivered an effective application that has the base functionalities of an industry password manager."
+        },
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "room-6-245",
+            "title": "Observing Belief Measures with COVID-19 Misinformation",
+            "studentName": "Kelly Chhor",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project Student Defined",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "posters/csse/chhorkellyc.jpg",
+            "abstract":"Misinformation is wrong information that is disseminated through the internet that may or may not have insidious intentions. Disinformation is similar but with the intent to deceive. Misinformation, however, is more of a problem. Ever since the information has more accessible to the masses by TV, newspapers and the internet, there has been in increase of misinformation. The elections in 2016 and 2020 have also been rampant with political propaganda and QAnon beliefs. Ever since COVID-19 has spread, many people have turned to the media and online for comfort and especially for information on COVID-19. This also means that more people are being exposed to online misinformation as well, especially through social media. \n\nFor this research project, I had an opportunity to do research on online misinformation and its relationships with behavior and initial beliefs. Working with Professor Marc Dupuis, we created a survey to examine the behavior, beliefs, and demographics of individuals related to COVID-19, including issues related to vaccinations. Participants were recruited through Amazon’s Mechanical Turk. People answered questions relating to demographics, pandemic behavior, COVID-19 conspiracy beliefs, political beliefs, vaccine beliefs, trust in information sources, perceived information in social media, psychological measures, and behavior after encountering online misinformation. \n\nThe survey collected 516 responses and found many significant relationships between factors. The survey suggests that there is a perceived misinformation among social media sights when people are likely getting their information. However, if people tend to believe in misinformation (conspiracy theories and QAnon beliefs), they might not necessarily perceive online misinformation. Also, there is a relationship between political affiliation and beliefs of conspiracy theories and QAnon. \n\nThis research will currently add to the current growing research about COVID-19 misinformation and its impacts on people’s behavior online and health decisions. The relations help us better understand on the reason why people behave the way they do and how preconceived notions add complexity to behavior after encountering information."
+        },
+        {
+            "time": "3:00 PM - 3:15 PM",
+            "projectId": "room-6-300",
+            "title": "Fear Appeals and Passwords",
+            "studentName": "Anna Jennings",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Marc Dupuis",
+            "posterLink": "posters/csse/jenningsannajoan.jpg",
+            "abstract":"This capstone project required the creation of a research study from beginning to end. This study was to fall under the current research of Professor Marc Dupuis Ph.D. The study examines the use of fear appeals within the cybersecurity sector, and whether they have a positive effect to change user behavior. The project began with research into fear appeals and how they are conducted, their benefits and disbenefits. Research into password use and security were also required to better understand user motivations. Finally, research into Password Managers and how they work was needed to help provide an efficacy aspect of the fear appeal. Once a clear understanding about how a fear appeal study is structured the project progressed into creating the content of the survey. The content needed was a fear, efficacy, and control video. This videos along with the accompanying questions would be the meat of the research study. The last steps of the study were gathering the responses of the participants and analyzing the data. It was found that using fear or efficacy is more effective in creating behavioral intentions toward creating long passwords (10 or more characters long). When it comes to creating unique passwords there was no significant effect of the fear appeals on intention to create unique passwords. Lastly there was significant effect of fear appeal components to keep one’s passwords safe and secure.  An accompanying research paper will be created and submitted to an appropriate cybersecurity conference, but this is outside the scope of this project. "
+        }
+    ]
+}

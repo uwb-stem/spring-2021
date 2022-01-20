@@ -1,0 +1,114 @@
+{
+    "csse": [
+        {
+            "time": "12:30 PM - 12:45 PM",
+            "projectId": "room-3-1230",
+            "title": "Learning and Analysis Platform for Endangered Languages",
+            "studentName": "Stephen Choi",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "posters/csse/choistephen.jpg",
+            "abstract": "MeTILDA is a web-based platform for learning, analyzing, and documenting endangered languages. According to UNESCO, there are 6000 languages spoken in the world, and among all of them, 43% of them are classified as endangered languages. Throughout the past few years, a platform in the form of a web application has been developed for the purpose of analyzing, researching, and learning endangered languages. This platform has been currently tested using the Blackfoot language. The two major parts that are included in this web application are PELDA and MeTILDA. PELDA hosts Praat and ELAN on the cloud, and MeTILDA is a web-based platform for the analysis of endangered languages.\n\nFor my Capstone project, I’ve focused on the frontend part of the platform, specifically the learning page. I’ve handed over a list of requirements from the project collaborator Dr. Miyashita who is a professor of Linguistics at the University of Montana, and was able to complete all of the high priority tasks with my project colleague. I have merged two components into a single page, implemented highlighting features for the selection, implemented pitch tracking of native speaker’s model pronunciation, implemented slider bars for users to be able to change pitch and speed of model pronunciation, fixed image saving error, and lastly tested and deployed new changes.\n\nIt was the very first time for me working on frontend development and I strongly believe this experience will be a great asset for my future career. In addition to that, contributing to this project means more to me in a sense that I have contributed at least a little to preserving endangered languages and making them more accessible by a wider range of language learners.   "
+        },
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "room-3-1245",
+            "title": "MeTILDA: Melodic Transcription in Language Documentation and Application",
+            "studentName": "Utsav Goswami",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "posters/csse/goswamiutsav.jpg",
+            "abstract": "This overall project is a Web Application that serves as a platform designed to help students, teachers, and linguistics researchers learn, analyze, and document endangered languages. This platform combines MeTILDA and PELDA, which were research projects developed by previous graduate students. PELDA stands for Platform for Endangered Language Documentation and Analysis which hosts Praat and ELAN, which are audio analysis components. MeTILDA, otherwise known as Melodic Transcription in Language Documentation and Application, provides a web-based platform for analyzing and documenting endangered languages. This web application consists of a React frontend with Typescript and a Flask backend with Python 2. For my capstone project, I worked on enhancing the frontend and backend functionalities of this application as well as improving and creating new documentation to help improve collaboration and help other developers learn the codebase. On the frontend, several pages needed to be refactored and modified in order to deliver better user experience, such as the home page, sign in/login page, Create, and Learn pages. On the backend, new RESTful endpoints were added in order to support retrieving and modifying data related to words and their individual syllables. On the documentation side, significant portions of the installation setup were updated to reflect current installation practices of several pieces of software in order to get a local environment up and running for development."
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "room-3-100",
+            "title": "UI Development for Pictoevents",
+            "studentName": "Jeremy Reyes",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "posters/csse/reyesjeremyroyferia.jpg",
+            "abstract": "During this spring quarter, I worked with Professor Min Chen and another student to work on a faculty research project focused on an Android application called Pictoevents. Pictoevents had a very minimal user-interface only used for testing, so my task and focus throughout the quarter was to design and implement a new interface in a user-friendly matter so that the application can be used by others in the future. Being my first time working on a front-end of a project, another core focus was learning about what makes an interface “user-friendly” and applying that to my work.\n\nInitially, I conducted research on different sources to generate core rules and guidelines to follow when designing the interface. Once I finished the initial research, I came up with four guidelines to follow: make each action clear on its purpose, use spacing to emphasize and separate different sections, present information in a format easy to read and understand, and keeping design elements consistent throughout the application. After designing the interface and gathering feedback from students ranging from no interface experience to some interface experience, I worked with the other student to implement the user interface with the back-end.\n\nAs a result, I was able to create a user-friendly interface for the student that they can use in the future once they are done with the back-end of the project and decide to publish their application. I was also able to take away the four guidelines I came up with and will be able to utilize that in the future interfaces I develop as well as improve on those guidelines overtime."
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "room-3-115",
+            "title": "Design of the Tourist Route Web App",
+            "studentName": "Zhengqi Zhang",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "posters/csse/zhengqizhang.jpg",
+            "abstract": ""
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "room-3-130",
+            "title": "Bloom Social Network iOS Application",
+            "studentName": "Tammy Hoang",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project - Student Defined",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "posters/csse/hoangtammyngoc.png",
+            "abstract": "As womxn in STEM, we recognize that resources to help connect with other womxn in STEM are not as prominent or easy to find in a male-dominant career field. Due to this problem, our team wanted to provide a place of belonging and a safe space for womxn in STEM to connect and learn from each other. Therefore, we created an iOS application called Bloom.\n\nBloom is a social network iOS application for womxn students and womxn alumni at the University of Washington Bothell. This application was developed in Swift using the Xcode IDE, designed using Figma and Xcode’s storyboard, and used Firebase to implement the main features of the application and to store the user information and authentication. Bloom offers four main features, which are events, forums, private messaging, and user profiles.\n\nWith expanding connections as the main focus of this mobile application, each feature helps broaden a user’s social experience. The events feature allows users to create, find, and attend events whether they are in-person or virtual. The forums feature allows users to create posts and questions for a wider community to obtain answers and comments. Like the other features, forums also use Firebase to store the posts that were created in the app. The private messaging feature allows users to communicate individually with each other. The user profile feature is customizable, and each user’s list of friends is displayed, along with requests sent and received.\n\nThrough this application, users can connect through multiple channels and bloom their relationships."
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "room-3-145",
+            "title": "Bloom Social Network iOS Application",
+            "studentName": "Jessica Runandy",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project - Student Defined",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "posters/csse/runandyjessica.jpeg",
+            "abstract": "As womxn in STEM, we recognize that resources to help connect with other womxn in STEM are not as prominent or easy to find in a male-dominated career field. Due to this problem, our team wanted to provide a place of belonging and a safe space for womxn in STEM to connect and learn from each other. Therefore, we created an iOS application called Bloom. Bloom is a social network iOS application for womxn students and womxn alumni at the University of Washington Bothell. This application was developed in Swift using the Xcode IDE, designed using Figma and Xcode's storyboard, and used Firebase to implement the main features of the application and to store the user information and authentication. Bloom offers four main features, which are events, forums, private messaging, and user profiles. The focus of each main feature of the application is to help users meet people and develop friendships. The user profile feature allows users to create their own custom profiles and to connect with other users by adding friends. The events feature allows users to create and attend both virtual and in-person events to discover a community and connect with other people with similar interests. The forums feature allows users to create posts to encourage discussion among users on the platform. The private messaging feature allows users to create private conversations from the user's friends list so that users can easily communicate with a specific friend without revealing the information to the other users on the platform. Through this application, users can connect through multiple channels on one platform and bloom their relationships."
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "room-3-200",
+            "title": "Bloom Social Network iOS Application",
+            "studentName": "Hailey Schauman",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project - Student Defined",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "posters/csse/schaumanhailey.png",
+            "abstract": "As womxn in STEM, we recognize that resources to help connect with other womxn in STEM are not as prominent or easy to find in a male-dominant career field. Due to this problem, our team wanted to provide a place of belonging and a safe space for womxn in STEM to connect and learn from each other. Therefore, we created an iOS application called Bloom.\n\nBloom is a social network iOS application for womxn students and womxn alumni at the University of Washington Bothell. This application was developed in Swift using the Xcode IDE, designed using Figma and Xcode’s storyboard, and used Firebase to implement the main features of the application and to store the user information and authentication. Bloom offers four main features, which are events, forums, private messaging, and user profiles.\n\nWith expanding connections as the main focus of this mobile application, each feature helps broaden a user’s social experience. The events feature allows users to create, find, and attend events whether they are in-person or virtual. The forums feature allows users to create posts and questions for a wider community to obtain answers and comments. Like the other features, forums also use Firebase to store the posts that were created in the app. The private messaging feature allows users to communicate individually with each other. The user profile feature is customizable, and each user’s list of friends is displayed, along with requests sent and received.\n\nThrough this application, users can connect through multiple channels and bloom their relationships."
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "room-3-215",
+            "title": "ECG Authentication for Medical Devices",
+            "studentName": "Aika Usui",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Geetha Thamilarasu",
+            "posterLink": "posters/csse/aikausui.png",
+            "abstract": "Wearable medical devices are now increasingly connected to the Internet, enabling improved patient outcomes and quality of care. However, this increased connectivity has also increased the attack surfaces, making the device and their data vulnerable to cyberattacks. Because wearable medical devices transmit private and sensitive medical information, it is critical to secure access to these devices. As evidenced by recent ransomware attacks on hospitals, the ability to remotely access and manipulate a medical device poses a direct threat to patient health whether in a hospital or at home. In this research, our goal is to enhance the security of wearable medical devices by using patients’ electrocardiogram (ECG) signals to authenticate devices. Specifically, we propose a deep learning approach for classifying a patient’s electrocardiogram (ECG) as a biometric for authentication. The deep learning approach allows a device to learn its user’s ECG in order to authenticate them against untrusted entities. Our research also extends the use of electrocardiogram signals for authentication by accounting for patient’s stress levels and varying emotional states, as the accuracy of ECG authentication may be affected by these variables. Our experimentation involves testing different parts of electrocardiogram signals using deep learning models and determining the most accurate method of classifying the end user’s device. The proposed research is useful for studying and evaluating the benefits of deep learning algorithms used in conjunction with authentication techniques in healthcare domains."
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "room-3-230",
+            "title": "Full O Plate",
+            "studentName": "Shannon Evans",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project - Student Defined",
+            "facultyAdvisor": "Dr. Jeffrey Kim",
+            "posterLink": "posters/csse/evansshannon.png",
+            "abstract": "This presentation has been created to detail the 497 Capstone Project developed by Erica Ferguson and Shannon Evans during the Winter and Spring Quarters of 2021. The project developed was a web application called Full Plate, which was designed to emphasize human centered design in creating a final technical product that helps users who experience Irritable Bowel Syndrome (IBS). This introduced unique challenges of creating a web application, which featured design choices that needed to be made by both students in order to engineer a final product which reflects their technical knowledge. This presentation covers the type of project developed, the stages of development taken, and the final results of this project. Additionally, this presentation will detail the unique elements involved in creating a project with an explicit user research phase. It will provide clarity into the two distinct development phases of the system’s user research and development, and give a unique introspection into the implications of that user research phase on the final product. Furthermore, it will provide insight into the difficulties faced and the lessons learned in order to display the value gained by both students during the development phase. Overall, this presentation should display the culmination of the Computer Science and Engineering knowledge gained during both students' time studying at the University of Washington, Bothell."
+        },
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "room-3-245",
+            "title": "Full O Plate",
+            "studentName": "Erica Ferguson",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project - Student Defined",
+            "facultyAdvisor": "Dr. Jeffrey Kim",
+            "posterLink": "posters/csse/fergusonericamichelle.png",
+            "abstract": "This presentation has been created to detail the 497 Capstone Project developed by Erica Ferguson and Shannon Evans during the Winter and Spring Quarters of 2021. The project developed was a web application called Full Plate, which was designed to emphasize human centered design in creating a final technical product that helps users who experience Irritable Bowel Syndrome (IBS). This introduced unique challenges of creating a web application, which featured design choices that needed to be made by both students in order to engineer a final product which reflects their technical knowledge. This presentation covers the type of project developed, the stages of development taken, and the final results of this project. Additionally, this presentation will detail the unique elements involved in creating a project with an explicit user research phase. It will provide clarity into the two distinct development phases of the system’s user research and development, and give a unique introspection into the implications of that user research phase on the final product. Furthermore, it will provide insight into the difficulties faced and the lessons learned in order to display the value gained by both students during the development phase. Overall, this presentation should display the culmination of the Computer Science and Engineering knowledge gained during both students' time studying at the University of Washington, Bothell.'"
+        }
+    ]
+}

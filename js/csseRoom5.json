@@ -1,0 +1,115 @@
+{
+    "csse": [
+        {
+            "time": "12:30 PM - 12:45 PM",
+            "projectId": "room-5-1230",
+            "title": "Creating a Document Management System for Liberty Mutual's Internal Employees & Documents",
+            "studentName": "Ryan Russell",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "posters/csse/russellryan.jpg",
+            "abstract":"During this capstone I was a Software Engineer Intern at Liberty Mutual working on the Document Management System with the goal to create a fast and reliable application for internal employees to interact with documents.\n\nThe existing document system was unmaintained and had become extremely slow to the point where it was impacting employee productivity. The system had to support over 300,000 documents and thousands of concurrent users. Our new system held the metadata for the documents in a DynamoDB NoSQL database, and users were able to request files to download. This way we would only be populating the list-view with text and fetching files on demand, instead of loading each file into the application.\n\nOur team created a list-view document list that integrated into the existing Liberty Mutual dashboard. The front-end was designed in Angular, HTML, and SASS. The back-end APIs were built on Java Spring and Docker, where they communicated with AWS DynamoDB and Envoy.\n\nThe new document system was able to load and display 200 documents in approximately 160ms, whereas the old system would take upwards of 5 seconds to display 200 documents (time varied depending on the size of each document). We were able to produce a consistent load time regardless of the size of each document since we were only loading in the metadata which were all similar in size, and we were able to increase the speed of the system by a factor of 30."
+        },
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "room-5-1245",
+            "title": "Creating an Authoritative Risk Management System",
+            "studentName": "Artem Tarasenko",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Amazon",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "posters/csse/tarasenkoartem.jpg",
+            "abstract":"The main aim of this capstone project was to work with other engineers, product managers, and leadership across multiple teams to design and develop a new service API that will aggregate data from multiple sources.  Once collected, we want to analyze the data, and provide a clear authoritative decision to our customers if we think they should or should not take an action based on the data we have analyzed.\n\nThe problem is that currently multiple Amazon teams (Gift Cards, Product Ads, etc) have to all retrieve business data from a variety of sources. Instead of spending effort on growing their business, without having a single source of truth each of our customers have to write, maintain, and update their own risk management system.\n\nOnce multiple teams agreed on the benefit of having the new API, we had multiple cross team design reviews where appropriate techniques and details were discussed. Through local client-side caching, and minor updates to existing dependency APIs we were able to deliver a solution that does more accurate risk analysis at a half the cost. We have also design future evolutions to the project that will include Machine Learning algorithms and will be delivered at a later time dueto the considerably higher estimated engineering effort.\n\nWe are currently in a process of onboarding our first customer to the new API. Once they are onboarded, they will have a more informative risk assessment decision without a need to own or maintain any of the business logic. Other customers will follow our onboarding process later this year."
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "room-5-100",
+            "title": "Quasar Research Website: Development using Python, Flask, HTML/CSS, Bootstrap",
+            "studentName": "Audrey Nguyen",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "posters/csse/nguyenaudreynguyetminh.jpg",
+            "abstract":"Professor Paola Rodriguez Hidalgo and Professor Arkady Retik are working on a long term computational astrophysics project focusing on quasars, a type of large celestial object. They initially had physics students and researchers write and develop the code for their project which interprets data based on their research. The overall goals of the project are to improve the normalization program and develop a useful website for people working on the Quasar Research project. In this project I worked on the website side of the project in collaboration with physics students to develop the functionality they needed. I worked on the project using an agile development strategy where I would focus on one or two important features at a time. I would select the features to focus on based on the continuous feedback loop I had between Professor Paola, the physics students, and I. The tools I used for the website were Flask, Python, MySQL, HTML, Bootstrap, and Sphinx. One of my major contributions to the website is incorporating a user registration and login authentication system so users can access locked pages. I have also added to the website's documentation, updated search queries for the website, changed formatting of some pages, and other improvements to the website’s usability."
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "room-5-115",
+            "title": "SQL Detective for Database Lineage Analysis",
+            "studentName": "David Shtukin",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "posters/csse/shtukindavid.jpg",
+            "abstract":"The goal for this project was to create an intelligence and light-weight framework for analyzing the usage of database tables and columns without connecting to a catalog.\n\nThe first step was to learn existing SQL parsing tools, and choose one for further analysis. Industry leading Java-based Apache Calcite open source framework was chosen to parse SQL input into an Abstract Syntax Tree (AST). The next step was to create a library for AST traversal to calculate metrics of tables and columns usage in different contexts, for example - in joins, filters or aggregations.\n\nThe library then was embedded into a CLI tool which combines acquiring SQL input, gathering and sorting results, and providing clear and eloquent output. Once the technique was proven to be working on an extensive set of unit test queries, it was applied to the set of convoluted queries from TPC-H - a standard industry benchmarking tool for SQL testing due to its thoroughness.\n\nThe created SqlDetective tool can be used as a library or standalone. It’s potentially useful for different types of users, including DB administrators and software developers. It serves as a platform for further research. Based on lineage analysis, one can come up with recommendations about database organization and query optimization. Another possible usage of the tool would be documenting up-to-date data models based on actual usage."
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "room-5-130",
+            "title": "Viewpoint Spectrum Internship: GraphQL API (Proof of Concept)",
+            "studentName": "Jasdeep Brar",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - People Power ",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "posters/csse/brarjasdeep.jpg",
+            "abstract":"During my internship at Viewpoint, I was tasked with helping create a GraphQL API for an ERP platform called Spectrum. I was to take the code from an existing project and add new GraphQL endpoints. I worked alongside my mentor and a few other members on the Spectrum team to ensure each endpoint contained the requested information and that the web interface was secure before deployment.\n\nThe previous method of fetching information from databases was done using a REST API. The number of endpoints and routes had grown to a large set over many years. The Spectrum team wanted to maintain programmatic access to the database albeit in a more streamlined fashion. GraphQL offers a single endpoint in which a user can query for specific information and modify existing data. GraphQL is also extremely lightweight and stateless so it can be easily deployed and managed using popular server frameworks.\n\nI managed to implement many new queries and modifiers to the GraphQL endpoint. I had time to implement custom queries of my own that I thought were useful. I added them to the docs and now they are available for everyone on the Spectrum team to read about and utilize.\n\nWith the new endpoints in place the Spectrum team has gained many new queries to help them develop and fix bugs faster. Instead of relying on different routes contained within a REST environment. Each developer can now request exactly what they are looking for and view it in any format they choose. Both GraphQL and the REST API currently in place return their responses in JSON format. In addition, the gradual integration of the GraphQL responses will significantly reduce payload size and server strain."
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "room-5-145",
+            "title": "Advancing Software Maturity in a Graph-Based Simulator",
+            "studentName": "Kyle Dukart",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Michael Stiber",
+            "posterLink": "posters/csse/dukartkylej.jpg",
+            "abstract":"The Graphitti simulator is a tool designed for scientists and researchers to quickly spin up a custom graph-based simulation to fit their needs.  This simulator is a complex tool created with maximum efficiency in mind, and is able to be run on either CPU or GPU.  Graphitti is able to simulate structures such as biological neurons and synapses, but it also can be adapted to simulate real world graph-based problems such as 911 call routing.\n\nMy role on the Graphitti team was to advance the level of software maturity in the project.  My tasks included:\n\n●   Cleaning up and standardizing documentation in the code\n\n●   Using Doxygen to organize and display documentation in a useful format\n\n●   Implementing a regression test which will automatically test the newest version against a base version using Github Actions\n\n●   Testing to see if Vector or Valarray would be able to efficiently replace C++ Arrays in order to serialize the simulation\n\nIn addition to these main tasks I also participated in fixing smaller issues that arose.  These included helping to upgrade our remote servers operating system from CentOS 7 to Debian10 and helping with a large manual merge of code from an outdated branch.\n\nI believe the additions I have made to the Graphitti simulator will help future students and researchers learn how the simulator works, use it more efficiently, and be able to detect possible problems early.  "
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "room-5-200",
+            "title": "A.C.M.E.: Automated Collection and Manipulation of Email",
+            "studentName": "Ryan Peters",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. William Erdly",
+            "posterLink": "posters/csse/petersryan.png",
+            "abstract":"The ACME project aims to provide individuals of highly technical but non-CS (Computer Science) backgrounds a toolkit for extracting statistical and linguistic data from their email inbox. Though we state this as the primary point of the project, the initial exploration that led us to discover it came from the observation that “On average, professionals have more than 200 emails in their inbox and receive  120 new ones each day but respond to only 25% of them”, according a 2019 Harvard Business Review article titled “How to Spend Way Less Time on Email Every Day”, by Matt Plummer.\n\nThe disparity between the number of messages received, and the number of responses generated is indicative of a few problems. Though, no small amount of that disparity is due to an endless tide of garbage messages, not all of which are always captured by even the most sophisticated industry provided filters. But that’s where the value of the ACME project can be most easily seen. The power of the individual to create custom solutions to their own unique or edge-case problems serves well in a few ways.\n\nFirst, it allows for the rapid implementation of a solution to a localized problem. This means you don’t have to wait for the I.T. staff for your company or institution to get around to your issue ticket. It also means that you do not have to go through the often-befuddling process of helping your I.T. staff recreate the issue.  Second, it is probable that someone else has already faced if not solved a similar issue on the project’s issue tracker. Allowing you to scaffold your solution around existing and working code.\n\nFinally empowering a consumer community to create their own custom solutions to problems also means that scientist and researchers conducting research in closed or highly secured networks don’t have to risk exposing confidential information to a third party curator in order to have access to maintain custom classifiers and organizational tools for their team communications. The interaction with a local imap host server can be kept completely in-house."
+        },
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "room-5-215",
+            "title": "Colloquial",
+            "studentName": "Olivia McFarland",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project Student Defined",
+            "facultyAdvisor": "Dr. William Erdly",
+            "posterLink": "posters/csse/mcfarlandolivia.jpg",
+            "abstract":"Colloquial is a web application designed to provide users supplemental language learning material, allowing the users the ability to casually embark on their language learning journey.         \n\nThe Colloquial website is a collection of learning materials in the forms of books, music, movies, and TV shows. Colloquial is based in the English language, though additional languages featured in the learning materials include French, Italian, Dutch, German, Portuguese, Spanish, Japanese, and Vietnamese. Users can navigate through a variety of content genres. Colloquial also provides a comments section for users to be able to view and leave comments for any viewed media. Moreover, users will be able to connect via a chat room among like-minded people and share their love of language and materials together.            \n\nThe idea of Colloquial started in the CSS 370 class during the spring quarter of 2020 as a part of our group class assignment. CSS 370 provided us the opportunity to plan projects, how to choose the right method and tools and how to communicate requirements and proposed solutions to all stakeholders. It naturally made sense for the Capstone project, that the three of us from CSS 370 joined together in our passion for movies, books and languages to develop Colloquial.\n\nFor this project, I embraced the role as a UX/UI designer and front-end developer. My primary tasks were to revamp the brand, create low-fidelity and high-fidelity prototypes using a prototyping tool called Figma, and collaborate with Uyen Hoang in developing a working website using HTML, CSS, and Bootstrap. \n\nThis Capstone project has given me the opportunity to improve both my technical and interpersonal skills from the web design and development process as well as collaboration with my teammate in a remote environment."
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "room-5-230",
+            "title": "Colloquial",
+            "studentName": "Uyen Hoang",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Group Project Student Defined",
+            "posterLink": "posters/csse/hoanguyenminh.png",
+            "abstract":"To language learners, they want to sound like native speakers as much as possible. Thus, one of the problems with language learning applications is that they don’t teach people phrases or vocabulary used in casual settings. Recognizing this problem, we created Colloquial. It’s an application that provides language learners supplemental material in their learning journey. These materials come in the form of different types of media such as books, songs, movies, and tv shows. They let the user explore beyond textbooks. Currently, the available languages are Spanish, German, Italian, French, Dutch, Portuguese, Japanese, and Vietnamese. The application provides many features to bring the best experience for the users. They can choose the language that they would like to explore, and filter the media based on genre. They can scroll through the recommendations and bookmark them. Additionally, users can view and provide reviews about media. They can chat with other users to improve their vocabulary or make new friends. Moreover, users are able to modify their profiles. Through the prototyping tool Figma, the working prototype for Colloquial was created. The prototype was then implemented into code with HTML and CSS for the web application, and React Native for the mobile application. JavaScript acted as the client-side to make requests, process the responses, and manipulate HTML elements to display information. Node.js and Express.js was used to build a server side to receive requests from the client-side, communicate with the backend server which is supported by Firebase, and make API calls to third-party API. The server side is modularized to handle different routes and requests. The application is hosted on Firebase Hosting. The goal of Colloquial is to provide everyone access to media that will interest the reader in continuing their language learning journey as well as give them experience with language as it exists in the real world."
+        },
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "room-5-245",
+            "title": "Mechanical Keyboard Analysis Website",
+            "studentName": "Nicolas Bhend",
+            "studentMajor": "CSSE",
+            "projectType": "Group Project Student Defined",
+            "facultyAdvisor": "Dr. William Erdly",
+            "posterLink": "posters/csse/bhendnickluke.jpg",
+            "abstract":"The enthusiast mechanical keyboard space is undergoing a renaissance of sorts; innovation is constant, enthusiasm is high, and an increasing number of consumers are entering and participating in the community each year. Given these trends, we wanted to create a tool that would make the enthusiast market more accessible to mainstream keyboard manufacturers and prospective enthusiasts. Enter the keyboard analysis website; a site that allows users to build custom keyboards and compare their custom boards with similar enthusiast offerings.\n\nThe website processes user data in two main stages; first, the user builds their custom keyboard by choosing customization options from five different categories; chassis, switches, keycaps, lighting, and hot swap type. The user also selects a price range at this stage. After building their keyboard, the user’s selections are stored in session storage and the site progresses to the results page, where user selections are retrieved and used to filter through a database of keyboards. In this second stage, keyboards are filtered by price, switches, lighting, chassis, keycaps, and hot swap type, respectively. After each filter, results are saved in arrays or ‘pools’, resulting in five pools corresponding to the five primary customization options. The last (bottom) pool contains the most relevant results, with each previous pool containing linearly less relevant results. Starting from the bottom pool, keyboards are then added to a final, display array, which subsequently filters out duplicates. After filtration has completed, the results page is dynamically generated based on the number of keyboards in the display array; a list of similar keyboards from the enthusiast space is displayed, along with a list of manufacturers within the user-specified price range.\n\nThe website was built using a variety of tools and technologies. The frontend is built using a combination of Bootstrap and custom HTML/CSS elements, while the backend is built using JavaScript, JQuery, and IndexedDB, an asynchronous JavaScript client-side database. The database also includes update functionality for future updates to the keyboard library."            
+            
+        }
+    ]
+}
